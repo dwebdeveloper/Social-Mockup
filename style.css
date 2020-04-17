@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.header {
+    width: 850px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(83, 83, 255);
+    margin: 0 auto;
+
+}
+
+
+h2 {
+    color:whitesmoke;
+    position: relative;
+    top: 260px;
+    left: 226px;
+}
+
+h3 {
+    color: whitesmoke;
+    position: relative;
+    top: 248px;
+    left: 226px;
+}
+
+.buttongroup .button {
+    background-color: rgb(240, 228, 228);
+    color: rgb(58, 58, 73);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+}
+
+button {
+    background-color: white;
+    border: 1px solid rgb(58, 58, 73);
+    color: rgb(58, 58, 73);
+}
+.buttongroup {
+    position: relative;
+    top: 210px;
+    left: 27px;
+}
+
+.btn-group .button:hover {
+    background-color: #c7cec7;
+}
+
+.button1 {
+    position: relative;
+    right: 210px;
+}
+
+.button2 {
+    position: relative;
+    right: 106.5px;
+}
+
+.button3 {
+    position: relative;
+    left: 18.05px;
+}
+
+.button4 {
+    position: relative;
+    left: 126px;
+}
+
+.nav_bar {
+    list-style-type: none;
+    border: 1px solid whitesmoke;
+    width: 850px;
+    height: 45.5px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+ul {
+    border: 2px solid whitesmoke; 
+    width: 845px;
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+
+li {
+    border: 2px solid whitesmoke;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 75px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    right: 27px;
+    height: 39px;
+    
+}
+
+.tab {
+    border-bottom: 3px solid rgb(83, 83, 255);
+    height: 39px;
+}
+
+.tabs {
+    border-right: 0.5px solid lightgray;
+}
+
+
+.profile_img {
+    width: 195px;
+    height: 190px;
+    background-color: rgb(83, 83, 255);
+    border: 1px solid black;
+    border-radius: 1.75%;
+    position: relative;
+    bottom: 210px;
+    left: 270px;
+}
+/* the twp selectors below use borders the color. very useful to locate where each selectors position*/
+.row {
+    display: table;
+
+    width: 850px;
+    height: 850px;
+    margin: 0 auto;
+    border-top: 3px solid lightgray;
+    position: relative;
+    bottom: 193px;
+}
+
+.column {
+    float:left;
+    /*border: 2px solid blue;*/
+    position: relative;
+    top: 10px;
+}
+
+.column1 {
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    width: 328px;
+    height: 208px;
+}
+
+.column2 {
+
+    width: 512px;
+    height: 840px;
+    position: relative;
+    left: 10px;
+}
+
+.leftfirstbox {
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    height: 206px;
+}
+
+h4 {
+    width: 328px;
+    border-top: 1px solid lightgray;
+    padding-top: 8px;
+    padding-left: 12px;
+    position: relative;
+    right: 4px;
+}
+
+p {
+    width: 328.3px;
+    border-bottom: 1px solid lightgray;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    position: relative;
+    right: 4px;
+    bottom: 23px;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    position: relative;
+    bottom: 33px;
+    left: 12px;
+}
+
+.rightfirstbox {
+    width: 512px;
+    height: 290px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.pgname_img {
+    border: 2px solid rgb(83, 83, 255);
+    background-color:rgb(83, 83, 255);
+    width: 40px;
+    height: 38px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+/*Below helps to position .frst_h5 and h6 together*/
+.frst_h5, h6 {
+    position: relative;
+    left: 56px;
+    bottom: 50px;
+}
+.frst_h5 {
+    border: 2px solid whitesmoke;
+    width: 300px;
+}
+
+h6 {
+    border: 2px solid whitesmoke;
+    width: 300px;
+    position: relative;
+    bottom: 76px;
+}
+
+.lrg_img {
+    border: 2px solid rgb(83, 83, 255);
+    background-color: rgb(83, 83, 255);
+    width: 504px;
+    height: 200px;
+    position: relative;
+    bottom: 85px;
+    left: 2px;
+}
+
+.sec_h5 {
+    color: rgb(83, 83, 255);;
+    border-top: 1px solid lightgray;
+    width: 506px; 
+    padding-top: 4px;
+    padding-left: 8px;
+    position: relative;
+    bottom: 105px;
+    right: 2px;
+}
